@@ -1,0 +1,31 @@
+nav {
+    width: 100%;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 50px;
+    background-color: rgb(56, 56, 56);
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  a {
+    color: #fed420;
+  }
+  
+  a:hover {
+    color: #fed420;
+ 
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 25%;
+
+  }
+  
+  ul {
+    /* padding-left: 0px; */
+    display: flex;
+    align-items: center;
+  }

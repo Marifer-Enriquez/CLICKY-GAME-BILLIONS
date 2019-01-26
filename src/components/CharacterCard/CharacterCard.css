@@ -1,0 +1,49 @@
+.card {
+    border: 4px rgb(99, 99, 99) solid;
+    border-radius: 2px;
+    width: 200px;
+    height: 120px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 4px 4px 10px rgb(56, 56, 56);
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .card > .img-container {
+    height: 100%;
+    overflow: hidden;
+    height: auto;
+    background:rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+
+  
+ .style_prevu_kit{
+   display:inline-block;
+   boder: 0;
+   width: 200px;
+   height: 220px;
+   position: relative;
+   -webkit-transition: all 200mx ease-in;
+   -webkit-transform: scale(1);
+   -ms-transform: scale(1);
+   -moz-transition: all 200mx ease-in;
+   -moz-transform: scale(1);
+   transition: all 200ms ease-in;
+   transform: scale(1);
+ }
+
+ .style_prevu_kit:hover{
+   cursor:pointer;
+   box-shadow: 0px 0px 150px;
+   z-index: 2;
+  -webkit-transition: all 200mx ease-in;
+   -webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -moz-transition: all 200mx ease-in;
+   -moz-transform: scale(1.1);
+   transition: all 200ms ease-in;
+   transform: scale(1.1);
+ }
